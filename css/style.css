@@ -10,6 +10,21 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-size: 1.6rem;
+}
+
+.nav-bar {
+    display: flex;
+    float: right;
+    list-style: none;
+    padding: 2rem;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
 
 .main {
     position: absolute;
