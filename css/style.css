@@ -26,13 +26,17 @@ body {
     margin-right: 1.5rem;
 }
 
+img {
+    transform: scale(.95);
+    margin-bottom: -2rem;
+}
 
 .main {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: -20rem;
+    margin-top: -13rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,9 +46,35 @@ body {
     margin-bottom: 3rem;
 }
 
+input[type="search"] {
+    padding: 1.2rem;
+    border-radius: 3rem;
+    border: 1px solid #d1d0d0;
+    outline: none;
+    box-shadow: none;
+    width: 55rem;
+}
+
+button {
+    padding: .6rem 2rem;
+    color: #575757;
+    background-color: #F2F2F2;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 1px solid #F2F2F2;
+
+}
+
 .languages {
     display: flex;
+    font-size: 1.3rem;
+}
 
+p {
+    margin-right: 1rem;
 }
 
 .language-list {
@@ -53,7 +83,7 @@ body {
 }
 
 .language-list__item:not(:last-child) {
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 a {
@@ -74,10 +104,18 @@ footer {
     position: fixed;
     width: 100%;
     height: max-content;
+    font-size: 1.4rem;
+}
+
+footer a {
+    color: #686868;
 }
 
 .top-foot {
-    padding-left: 3rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #F2F2F2;
+    border-top: 1px solid #dbdbdb;
+    color: #929191;
 }
 
 .bottom-foot {
@@ -85,6 +123,8 @@ footer {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    background-color: #F2F2F2;
+    border-top: 1px solid #dbdbdb;
 }
 
 .bottom-foot:not(:last-child) {
@@ -100,15 +140,17 @@ footer {
 }
 
 .left-item {
-    padding: 3rem 1rem 1.5rem 3rem;
+    padding: 1rem .1rem 1rem 3rem;
 }
 
 .right  {
     display: flex;
     flex-direction: row;
     width: auto;
+    margin-right: 3rem;
 }
 
 .right-item {
-    padding: 3rem 4rem 1.5rem 3rem;
+    padding: 1rem .1rem 1rem 3rem;   
 }
+
