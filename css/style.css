@@ -31,4 +31,30 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: -20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space {
+    margin-bottom: 3rem;
+}
+
+.languages {
+    display: flex;
+
+}
+
+.language-list {
+    display: flex;
+    list-style: none; 
+}
+
+.language-list__item:not(:last-child) {
+    padding-right: 2rem;
+}
+
+a {
+    text-decoration: none;
 }
