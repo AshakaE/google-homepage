@@ -12,6 +12,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    width: 100vw;
 }
 
 .nav-bar {
@@ -57,8 +58,57 @@ body {
 
 a {
     text-decoration: none;
+    
+}
+
+li {
+    list-style: none;
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* left: 0; */
+    bottom: 0;
     position: fixed;
+    width: 100%;
+    height: max-content;
+}
+
+.top-foot {
+    padding-left: 3rem;
+}
+
+.bottom-foot {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bottom-foot:not(:last-child) {
+    margin-right: 20rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+
+}
+
+.left-item {
+    padding: 3rem 1rem 1.5rem 3rem;
+}
+
+.right  {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.right-item {
+    padding: 3rem 4rem 1.5rem 3rem;
 }
